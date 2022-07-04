@@ -5,7 +5,9 @@
     {{ block.super }}
 <link rel="stylesheet" href="{% static 'styles/main.css' %}">
 {% endblock %}
-
+{% block title %}
+Strona startowa
+{% endblock %}
 {% block container %}
     {{ block.super }}
 <h1>{{ name }}</h1>
